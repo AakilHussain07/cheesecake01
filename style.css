@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.dots{
+    display: flex;
+    margin-top: 10px;
+}
+
+.dots p{
+    margin-left: 10px;
+}
+.cake {
+    width: 100%;
+    margin-top: 15px;
+} 
+.cheesecak span{
+    font-weight:bolder;
+    line-height: 2rem;
+}
+
+h3{
+    margin-top: 25px;
+}
+.col{
+    display: flex;
+    gap: 1rem;
+    font-size: 13px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  
+}
+
+.shedule{
+    display: flex;
+    font-size: 13px;
+    gap: 1rem;
+
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.ing{
+    margin-top: 20px;
+}
+.check{
+    margin-top: 15px;
+    line-height: 2rem;
+}
+.one{
+    line-height: 2.5rem;
+}
+.cheesecak{
+    line-height: 2rem;
+}
+
+.local{
+    color:#f2994a ;
+}
+
+.tw{
+    color: #f2994a;
+}
+
+.bu
+{
+    display: flex;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+button{
+    width: 25px;
+    height: 25px;
+    background-color:#f2994a ;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.y{
+    color: grey;
+}
+
+@media screen and (min-width:1024px){
+.box1{
+    display: none;
+}
+
+.box3{
+    display: flex;
+}
+
+.three{
+    display: block;
+}
+
+.box1{
+    width: 300px;
+    height: 300px;
+}
+}
